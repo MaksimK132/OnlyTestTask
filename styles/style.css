@@ -1,0 +1,171 @@
+body
+{
+    background: url(./../img/main-background-image.png) 65% 0% no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    font-family: Arial;
+    
+}
+.buttons
+{
+    display: flex;
+    position: absolute;
+    right: 14.895vw;
+}
+.button
+{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-image: url(./../img/open-button-image.svg);
+}
+.green-button
+{
+    background-color: #6ABF4B;
+}
+.blue-button
+{
+    background-color: #3877EE;
+}
+.button-block-1
+{
+    width: 111px;
+    display: flex;
+    padding-top: 714px;
+    margin-right: -2.5vw;
+}
+.button-block-2
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;   
+    padding-top: 282px;
+}
+.button-block-3
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    margin-right: 15vw;
+    padding-top: 482px;
+}
+.button-block-4
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    margin-right: -5vw;
+    padding-top: 629px;
+}
+.button-block-5
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    margin-right: -4vw;
+    padding-top: 790px;
+}
+.button-block-6
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    padding-top: 404px;
+}
+.button-block-7
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    margin-right: -2vw;
+    margin-left: 3vw;
+    padding-top: 669px;
+}
+.button-block-8
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    margin-right: -4vw;
+    padding-top: 225px;
+}
+.button-block-9
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    padding-top: 475px;
+}
+.button-block-10
+{
+    width: 111px;
+    display: flex;
+    justify-content: end;
+    margin-left: 3.5vw;
+    padding-top: 713px;
+}
+
+.minus-image
+{
+    display: none;
+}
+.button-text
+{
+    display: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.active
+{
+    border-radius: 40px;
+    padding: 11px 15px;
+    opacity: 1;
+    width: auto;
+    height: 38px;
+    background-image: none;
+}
+.button.active .button-text
+{
+    display: block;
+}
+.button.active .minus-image
+{
+    display: block;
+}
+.button.active .button-3
+{
+    margin-left: 0.521vw;
+}
+
+
+@media(max-width: 1750px)
+{
+    .buttons
+    {
+        right: 12vw;
+    }
+}
+@media(max-width: 1550px)
+{
+    .buttons
+    {
+        right: 9.2vw;
+    }
+}
+@media(max-width: 1350px)
+{
+    .buttons
+    {
+        right: 6.4vw;
+    }
+}
